@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web GIS - Batas Kecamatan manis mata</title>
+    <!-- Link ke file CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Landing Page -->
+    <div id="landing-page">
+      <div class="content">
+        <h1>Welcome</h1>
+        <h3>WEB GIS SEDERHANA KECAMATAN MANIS MATA</h3>
+        <p>Peta Kec. Manis Mata</p>
+        <!-- Informasi Pribadi -->
+        <button id="contact-button" title="Kontak Saya">
+          <a href="contact.html"><i class="fas fa-phone-alt"></i></a>
+        </button>
+        <!-- tombol enter -->
+        <button id="enter-button">Enter Map</button>
+      </div>
+    </div>
+
+    <!-- Map Section -->
+    <div id="map-container" style="display: none">
+      <div id="map"></div>
+      <div id="info">Click on a region to see detailed information.</div>
+    </div>
+
+    <!-- Link ke file JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+
+  <!-- footter -->
+  <div>
+    <p>copyright 2025. by angga saputra</p>
+  </div>
+</html>
